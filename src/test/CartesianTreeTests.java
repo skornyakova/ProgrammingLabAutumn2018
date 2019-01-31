@@ -6,7 +6,7 @@ public class CartesianTreeTests {
     CartesianTree<Integer> cartesianTree = new CartesianTree<Integer>();
 
     @Test
-    void containsTest() {
+    void addAndContainsTest() {
         cartesianTree.add(1);
         cartesianTree.add(2);
         cartesianTree.add(3);
